@@ -1,0 +1,23 @@
+hero-courier.jpg
+================
+
+Home page hero photograph (CourierVisual) — the page's primary visual subject.
+
+Source : https://unsplash.com/photos/delivery-person-on-a-scooter-with-a-green-grab-bag-xa5-9RA-uBE
+License: Unsplash License — free for commercial and non-commercial use, no
+         attribution required, though a credit is appreciated.
+
+Stored at 2400 x 1600 (3:2). `CourierVisual` frames it at `aspect-[3/2]`, which
+is an exact match, so `object-cover` performs no cropping and the rider, helmet,
+delivery box and wheels are never clipped.
+
+Why this file: every delivery-courier stock photo available on Pexels was 2:3
+portrait, which would have needed roughly half its width cropped away to sit in a
+landscape frame. A 16:9 Pexels scooter rider fitted the frame but had no delivery
+box, so it read as a commuter rather than a courier.
+
+There are no brand marks on the scooter or the delivery box. A wordmark decal was
+considered and rejected — it cannot be aligned to the box without seeing the
+photograph, and a misaligned logo is worse than none. If you commission a branded
+asset, update `HERO_COURIER_IMAGE` in `src/content/hero.ts`
+(src, width, height, alt, objectPosition) and this file together.
